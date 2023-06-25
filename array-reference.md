@@ -795,4 +795,4 @@
   // expected output: Array [4, 5, 1, 2, 3]
   ```
 
-  [Back to Top](#array)
+  [Back to Top](#arrays)
