@@ -2,10 +2,9 @@
 
 - [**Constructor**](#constructor)
   - [**Array()**](#array)
-- [**Properties**](#properties)
   - [**Array\[@@species\]**](#arrayspecies)
   - [**Array.prototype\[@@unscopables\]**](#arrayprototypeunscopables)
-  - [**Array.length**](#arraylength)
+  - [**Array: length**](#array-length)
 - [**Methods**](#methods)
   - [**at()**](#at)
   - [**concat()**](#concat)
@@ -51,69 +50,53 @@
 ## **Constructor**
 
 ### **Array()**
+  - **Syntax**: `new Array(element0, element1[, ...[, elementN]])` or `new Array(arrayLength)`
+  - **Description**: Creates a new Array object. When called with multiple arguments, creates a new array with the arguments as elements. When called with a single number argument, creates a new array of the specified length (filled with `undefined`).
+  - **Mutability**: Does not mutate any existing array (Creates a new array)
+  - **Return Value**: New array
+  - **Example**:
+    ```javascript
+    const array1 = new Array(5);
+    console.log(array1.length);
+    // expected output: 5
 
----
-
-- **Syntax**: `new Array(element0, element1[, ...[, elementN]])` or `new Array(arrayLength)`
-- **Description**: Creates a new Array object. When called with multiple arguments, creates a new array with the arguments as elements. When called with a single number argument, creates a new array of the specified length (filled with `undefined`).
-- **Example**:
-
-  ```javascript
-  const array1 = new Array(5);
-  console.log(array1.length);
-  // expected output: 5
-
-  const array2 = new Array("a", "b", "c");
-  console.log(array2);
-  // expected output: Array ["a", "b", "c"]
-  ```
-
-[Back to Top &uarr;](#arrays)
-
-## **Properties**
+    const array2 = new Array('a', 'b', 'c');
+    console.log(array2);
+    // expected output: Array ["a", "b", "c"]
+    ```
 
 ### **Array[@@species]**
-
----
-
-- **Syntax**: `Array[Symbol.species]`
-- **Description**: The Array[@@species] accessor property returns the default constructor for Array objects. Subclass constructors may override it to change the constructor assignment.
-- **Example**:
-  ```javascript
-  console.log(Array[Symbol.species]); // Function: Array
-  ```
-
-[Back to Top &uarr;](#arrays)
+  - **Syntax**: `Array[Symbol.species]`
+  - **Description**: The Array[@@species] accessor property returns the default constructor for Array objects. Subclass constructors may override it to change the constructor assignment.
+  - **Mutability**: Does not mutate any existing array
+  - **Return Value**: Default constructor for Array objects
+  - **Example**:
+    ```javascript
+    console.log(Array[Symbol.species]); // Function: Array
+    ```
 
 ### **Array.prototype[@@unscopables]**
+  - **Syntax**: `Array.prototype[Symbol.unscopables]`
+  - **Description**: The Array.prototype[@@unscopables] symbol contains property names to exclude from a with statement binding scope.
+  - **Mutability**: Does not mutate any existing array
+  - **Return Value**: Object containing property names to exclude from a with statement binding scope
+  - **Example**:
+    ```javascript
+    console.log(Array.prototype[Symbol.unscopables]);
+    // expected output: { copyWithin: true, entries: true, fill: true, find: true, findIndex: true, flat: true, flatMap: true, includes: true, keys: true, values: true }
+    ```
 
----
-
-- **Syntax**: `Array.prototype[Symbol.unscopables]`
-- **Description**: The Array.prototype[@@unscopables] symbol contains property names to exclude from a with statement binding scope.
-- **Example**:
-
-  ```javascript
-  console.log(Array.prototype[Symbol.unscopables]);
-  // expected output: { copyWithin: true, entries: true, fill: true, find: true, findIndex: true, flat: true, flatMap: true, includes: true, keys: true, values: true }
-  ```
-
-[Back to Top &uarr;](#arrays)
-
-### **Array.length**
-
----
-
-- **Syntax**: `array.length`
-- **Description**: Reflects the number of elements in an array.
-- **Example**:
-  ```javascript
-  const array = ["a", "b", "c"];
-  console.log(array.length);
-  // expected output: 3
-  ```
-
-[Back to Top &uarr;](#arrays)
+### **Array: length**
+  - **Syntax**: `array.length`
+  - **Description**: Reflects the number of elements in an array.
+  - **Mutability**: Does not mutate any existing array
+  - **Return Value**: Number of elements in the array
+  - **Example**:
+    ```javascript
+    const array = ['a', 'b', 'c'];
+    console.log(array.length);
+    // expected output: 3
+    ```
 
 ## **Methods**
 
