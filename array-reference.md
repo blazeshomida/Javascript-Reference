@@ -68,7 +68,7 @@
   // expected output: Array ["a", "b", "c"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ## **Properties**
 
@@ -83,7 +83,7 @@
   console.log(Array[Symbol.species]); // Function: Array
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **Array.prototype[@@unscopables]**
 
@@ -98,7 +98,7 @@
   // expected output: { copyWithin: true, entries: true, fill: true, find: true, findIndex: true, flat: true, flatMap: true, includes: true, keys: true, values: true }
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **Array.length**
 
@@ -113,7 +113,7 @@
   // expected output: 3
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ## **Methods**
 
@@ -132,7 +132,7 @@
   // expected output: 44
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **concat()**
 
@@ -153,7 +153,7 @@
   // expected output: Array ["a", "b", "c", "d", "e", "f"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **copyWithin()**
 
@@ -172,7 +172,7 @@
   // expected output: Array ["d", "b", "c", "d", "e"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **entries()**
 
@@ -192,7 +192,7 @@
   // expected output: Array [0, "a"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **every()**
 
@@ -215,7 +215,7 @@
   // expected output: true
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **fill()**
 
@@ -231,7 +231,7 @@
   // expected output: [4, 4, 4]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **filter()**
 
@@ -259,7 +259,7 @@
   // expected output: Array ["exuberant", "destruction", "present"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **find()**
 
@@ -280,7 +280,7 @@
   // expected output: 12
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **findIndex()**
 
@@ -301,7 +301,7 @@
   // expected output: 3
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **findLast()**
 
@@ -322,7 +322,7 @@
   // expected output: 44
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **findLastIndex()**
 
@@ -343,7 +343,7 @@
   // expected output: 4
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **flat()**
 
@@ -362,7 +362,7 @@
   // expected output: [0, 1, 2, 3, 4]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **flatMap()**
 
@@ -381,7 +381,7 @@
   // expected output: [2, 4, 6, 8]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **forEach()**
 
@@ -402,7 +402,7 @@
   // expected output: "c"
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **from()**
 
@@ -418,7 +418,7 @@
   // expected output: Array ["f", "o", "o"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **fromAsync()**
 
@@ -439,7 +439,7 @@
   // expected output: [1, 2, 3, 4]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **includes()**
 
@@ -458,7 +458,7 @@
   // expected output: true
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **indexOf()**
 
@@ -477,7 +477,7 @@
   // expected output: 1
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **isArray()**
 
@@ -503,7 +503,7 @@
   console.log(Array.isArray({ __proto__: Array.prototype }));
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **join()**
 
@@ -522,7 +522,7 @@
   // expected output: "Fire,Air,Water"
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **keys()**
 
@@ -546,7 +546,7 @@
   // expected output: 2
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **lastIndexOf()**
 
@@ -565,7 +565,7 @@
   // expected output: 3
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **map()**
 
@@ -586,7 +586,7 @@
   // expected output: Array [2, 8, 18, 32]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **of()**
 
@@ -603,7 +603,7 @@
   console.log(Array.of(undefined)); // [undefined]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **pop()**
 
@@ -622,7 +622,7 @@
   // expected output: "tomato"
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **push()**
 
@@ -644,7 +644,7 @@
   // expected output: Array ["pigs", "goats", "sheep", "cows"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **reduce()**
 
@@ -664,7 +664,7 @@
   // expected output: 10
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **reduceRight()**
 
@@ -689,7 +689,7 @@
   // expected output: Array [4, 5, 2, 3, 0, 1]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **reverse()**
 
@@ -711,7 +711,7 @@
   // expected output: "reversed:" Array ["three", "two", "one"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **shift()**
 
@@ -732,7 +732,7 @@
   // expected output: 1
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **slice()**
 
@@ -757,7 +757,7 @@
   // expected output: Array ["bison", "camel", "duck", "elephant"]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **some()**
 
@@ -778,7 +778,7 @@
   // expected output: true
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **sort()**
 
@@ -802,7 +802,7 @@
   // expected output: Array [1, 100000, 21, 30, 4]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **splice()**
 
@@ -828,7 +828,7 @@
   // expected output: Array [3]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **toLocaleString()**
 
@@ -848,7 +848,7 @@
   // expected output: "1,a,12/21/1997, 2:12:00 PM"
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **toReversed()**
 
@@ -868,7 +868,7 @@
   // expected output: Array [5, 4, 3, 2, 1]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **toSorted()**
 
@@ -888,7 +888,7 @@
   // expected output: Array [1, 2, 3, 4, 5]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **toSpliced()**
 
@@ -908,7 +908,7 @@
   // expected output: Array [1, "a", "b", 4, 5]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **toString()**
 
@@ -925,7 +925,7 @@
   // expected output: "1,2,a,b"
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
 
 ### **unshift()**
 
@@ -946,4 +946,4 @@
   // expected output: Array [4, 5, 1, 2, 3]
   ```
 
-  [Back to Top &uarr;](#arrays)
+[Back to Top &uarr;](#arrays)
