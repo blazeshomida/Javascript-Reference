@@ -2,6 +2,7 @@
 
 - [**Constructor**](#constructor)
   - [**Array()**](#array)
+- [**Properties**](#properties)
   - [**Array\[@@species\]**](#arrayspecies)
   - [**Array.prototype\[@@unscopables\]**](#arrayprototypeunscopables)
   - [**Array: length**](#array-length)
@@ -64,6 +65,8 @@
     console.log(array2);
     // expected output: Array ["a", "b", "c"]
     ```
+
+## **Properties**
 
 ### **Array[@@species]**
   - **Syntax**: `Array[Symbol.species]`
