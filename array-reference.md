@@ -45,7 +45,8 @@
 ## **Methods**
 
 ### **at()**
-***
+
+---
 
 - **Syntax**: `array.at(index)`
 - **Description**: This method returns the element at the specified index, allowing for positive and negative integers. Negative integers count back from the last item in the array.
@@ -59,7 +60,8 @@
   ```
 
 ### **concat()**
-***
+
+---
 
 - **Syntax**: `array1.concat(array2)`
 - **Description**: The concat() method is used to merge two or more arrays. This method does not change the existing arrays but instead returns a new array.
@@ -77,7 +79,8 @@
   ```
 
 ### **copyWithin()**
-***
+
+---
 
 - **Syntax**: `arr.copyWithin(target[, start[, end]])`
 - **Description**: The copyWithin() method shallow copies part of an array to another location in the same array and returns it without modifying its size.
@@ -93,7 +96,8 @@
   ```
 
 ### **entries()**
-***
+
+---
 
 - **Syntax**: `array.entries()`
 - **Description**: Returns a new Array Iterator object that contains the key/value pairs for each index in the array.
@@ -110,7 +114,8 @@
   ```
 
 ### **every()**
-***
+
+---
 
 - **Syntax**: `arr.every(callback(element[, index[, array]])[, thisArg])`
 - **Description**: Tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
@@ -130,7 +135,8 @@
   ```
 
 ### **fill()**
-***
+
+---
 
 - **Syntax**: `arr.fill(value[, start[, end]])`
 - **Description**: Changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array.
@@ -143,7 +149,8 @@
   ```
 
 ### **filter()**
-***
+
+---
 
 - **Syntax**: `arr.filter(callback(element[, index[, array]])[, thisArg])`
 - **Description**: The filter() method creates a new array with all elements that pass the test implemented by the provided function.
@@ -168,7 +175,8 @@
   ```
 
 ### **find()**
-***
+
+---
 
 - **Syntax**: `arr.find(callback( element[, index[, array]] )[, thisArg])`
 - **Description**: The find() method returns the value of the first element in the provided array that satisfies the provided testing function.
@@ -186,7 +194,8 @@
   ```
 
 ### **findIndex()**
-***
+
+---
 
 - **Syntax**: `arr.findIndex(callback( element[, index[, array]] )[, thisArg])`
 - **Description**: The findIndex() method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating that no element passed the test.
@@ -204,7 +213,8 @@
   ```
 
 ### **findLast()**
-***
+
+---
 
 - **Syntax**: `arr.findLast(callback( element[, index[, array]] )[, thisArg])`
 - **Description**: The findLast() method returns the value of the last element in the array where predicate is true, and undefined otherwise.
@@ -222,7 +232,8 @@
   ```
 
 ### **findLastIndex()**
-***
+
+---
 
 - **Syntax**: `arr.findLastIndex(callback( element[, index[, array]] )[, thisArg])`
 - **Description**: The findLastIndex() method returns the index of the last element in the array where predicate is true, and -1 otherwise.
@@ -240,7 +251,8 @@
   ```
 
 ### **flat()**
-***
+
+---
 
 - **Syntax**: `arr.flat([depth])`
 - **Description**: The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
@@ -256,7 +268,8 @@
   ```
 
 ### **flatMap()**
-***
+
+---
 
 - **Syntax**: `arr.flatMap(callback(currentValue[, index[, array]])[, thisArg])`
 - **Description**: The flatMap() method first maps each element using a mapping function, then flattens the result into a new array.
@@ -272,7 +285,8 @@
   ```
 
 ### **forEach()**
-***
+
+---
 
 - **Syntax**: `arr.forEach(callback(currentValue [, index [, array]])[, thisArg])`
 - **Description**: The forEach() method executes a provided function once for each array element.
@@ -290,7 +304,8 @@
   ```
 
 ### **from()**
-***
+
+---
 
 - **Syntax**: `Array.from(arrayLike[, mapFn[, thisArg]])`
 - **Description**: The Array.from() static method creates a new, shallow-copied Array instance from an array-like or iterable object.
@@ -303,7 +318,8 @@
   ```
 
 ### **fromAsync()**
-***
+
+---
 
 - **Syntax**: `Array.fromAsync(asyncIterable)`
 - **Description**: The Array.fromAsync() static method creates a new Array instance from an asynchronous or synchronous iterable object.
@@ -321,7 +337,8 @@
   ```
 
 ### **includes()**
-***
+
+---
 
 - **Syntax**: `arr.includes(valueToFind[, fromIndex])`
 - **Description**: The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
@@ -337,7 +354,8 @@
   ```
 
 ### **indexOf()**
-***
+
+---
 
 - **Syntax**: `arr.indexOf(searchElement[, fromIndex])`
 - **Description**: The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
@@ -353,7 +371,8 @@
   ```
 
 ### **isArray()**
-***
+
+---
 
 - **Syntax**: `Array.isArray(obj)`
 - **Description**: The Array.isArray() method determines whether the passed value is an Array.
@@ -376,7 +395,8 @@
   ```
 
 ### **join()**
-***
+
+---
 
 - **Syntax**: `arr.join([separator])`
 - **Description**: The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string.
@@ -392,7 +412,8 @@
   ```
 
 ### **keys()**
-***
+
+---
 
 - **Syntax**: `arr.keys()`
 - **Description**: The keys() method returns a new Array Iterator object that contains the keys for each index in the array.
@@ -413,7 +434,8 @@
   ```
 
 ### **lastIndexOf()**
-***
+
+---
 
 - **Syntax**: `arr.lastIndexOf(searchElement[, fromIndex])`
 - **Description**: The lastIndexOf() method returns the last index at which a certain element can be found in the array, or -1 if the element is not found. The array is searched backwards, starting at fromIndex.
@@ -429,7 +451,8 @@
   ```
 
 ### **map()**
-***
+
+---
 
 - **Syntax**: `arr.map(callback(currentValue[, index[, array]])[, thisArg])`
 - **Description**: The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
@@ -447,7 +470,8 @@
   ```
 
 ### **of()**
-***
+
+---
 
 - **Syntax**: `Array.of(element0[, element1[, ...[, elementN]]])`
 - **Description**: The Array.of() method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.
@@ -461,7 +485,8 @@
   ```
 
 ### **pop()**
-***
+
+---
 
 - **Syntax**: `arr.pop()`
 - **Description**: The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
@@ -477,7 +502,8 @@
   ```
 
 ### **push()**
-***
+
+---
 
 - **Syntax**: `arr.push(element1[, ...[, elementN]])`
 - **Description**: The push() method adds one or more elements to the end of an array and returns the new length of the array.
@@ -496,7 +522,8 @@
   ```
 
 ### **reduce()**
-***
+
+---
 
 - **Syntax**: `arr.reduce(callback( accumulator, currentValue[, index[, array]] )[, initialValue])`
 - **Description**: The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
@@ -513,7 +540,8 @@
   ```
 
 ### **reduceRight()**
-***
+
+---
 
 - **Syntax**: `arr.reduceRight(callback( accumulator, currentValue[, index[, array]] )[, initialValue])`
 - **Description**: The reduceRight() method applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.
@@ -535,7 +563,8 @@
   ```
 
 ### **reverse()**
-***
+
+---
 
 - **Syntax**: `arr.reverse()`
 - **Description**: The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.
@@ -554,7 +583,8 @@
   ```
 
 ### **shift()**
-***
+
+---
 
 - **Syntax**: `arr.shift()`
 - **Description**: The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
@@ -572,7 +602,8 @@
   ```
 
 ### **slice()**
-***
+
+---
 
 - **Syntax**: `arr.slice([begin[, end]])`
 - **Description**: The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
@@ -594,7 +625,8 @@
   ```
 
 ### **some()**
-***
+
+---
 
 - **Syntax**: `arr.some(callback(element[, index[, array]])[, thisArg])`
 - **Description**: The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
@@ -612,7 +644,8 @@
   ```
 
 ### **sort()**
-***
+
+---
 
 - **Syntax**: `arr.sort([compareFunction])`
 - **Description**: The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
@@ -633,7 +666,8 @@
   ```
 
 ### **splice()**
-***
+
+---
 
 - **Syntax**: `arr.splice(start[, deleteCount[, item1[, item2[, ...]]]])`
 - **Description**: The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
@@ -656,7 +690,8 @@
   ```
 
 ### **toLocaleString()**
-***
+
+---
 
 - **Syntax**: `arr.toLocaleString([locales[, options]])`
 - **Description**: The toLocaleString() method returns a string representing the elements of the array. The elements are converted to strings using their toLocaleString methods and are separated by a locale-specific string (such as a comma ",").
@@ -673,7 +708,8 @@
   ```
 
 ### **toReversed()**
-***
+
+---
 
 - **Syntax**: `arr.toReversed()`
 - **Description**: This is a custom method that reverses the order of elements in the array and returns a new array.
@@ -690,7 +726,8 @@
   ```
 
 ### **toSorted()**
-***
+
+---
 
 - **Syntax**: `arr.toSorted([compareFunction])`
 - **Description**: This is a custom method that returns a new array with the elements sorted in ascending order. An optional compareFunction can be provided to define the sort order.
@@ -707,7 +744,8 @@
   ```
 
 ### **toSpliced()**
-***
+
+---
 
 - **Syntax**: `arr.toSpliced(start[, deleteCount[, item1[, item2[, ...]]]])`
 - **Description**: This is a custom method that returns a new array with the specified elements removed from the original array and optional new elements inserted at the specified position.
@@ -724,7 +762,8 @@
   ```
 
 ### **toString()**
-***
+
+---
 
 - **Syntax**: `arr.toString()`
 - **Description**: The toString() method returns a string representing the specified array and its elements.
@@ -738,7 +777,8 @@
   ```
 
 ### **unshift()**
-***
+
+---
 
 - **Syntax**: `arr.unshift(element1[, ...[, elementN]])`
 - **Description**: The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
@@ -754,4 +794,5 @@
   console.log(array1);
   // expected output: Array [4, 5, 1, 2, 3]
   ```
-[Back to Top](#arrays)
+
+  [Back to Top](#methods)
