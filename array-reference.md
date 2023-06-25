@@ -1,4 +1,4 @@
-# Arrays <!-- omit in toc -->
+# Arrays<!-- omit in toc -->
 
 - [**Methods**](#methods)
   - [**at()**](#at)
@@ -795,4 +795,4 @@
   // expected output: Array [4, 5, 1, 2, 3]
   ```
 
-  [Back to Top](#methods)
+  [Back to Top](#array)
