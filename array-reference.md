@@ -59,6 +59,8 @@
   // expected output: 44
   ```
 
+[Back to Top](#arrays)
+
 ### **concat()**
 
 ---
@@ -78,6 +80,8 @@
   // expected output: Array ["a", "b", "c", "d", "e", "f"]
   ```
 
+[Back to Top](#arrays)
+
 ### **copyWithin()**
 
 ---
@@ -94,6 +98,8 @@
   console.log(array1.copyWithin(0, 3, 4));
   // expected output: Array ["d", "b", "c", "d", "e"]
   ```
+
+[Back to Top](#arrays)
 
 ### **entries()**
 
@@ -112,6 +118,8 @@
   console.log(iterator1.next().value);
   // expected output: Array [0, "a"]
   ```
+
+[Back to Top](#arrays)
 
 ### **every()**
 
@@ -134,6 +142,8 @@
   // expected output: true
   ```
 
+[Back to Top](#arrays)
+
 ### **fill()**
 
 ---
@@ -147,6 +157,8 @@
   console.log([1, 2, 3].fill(4));
   // expected output: [4, 4, 4]
   ```
+
+[Back to Top](#arrays)
 
 ### **filter()**
 
@@ -174,6 +186,8 @@
   // expected output: Array ["exuberant", "destruction", "present"]
   ```
 
+[Back to Top](#arrays)
+
 ### **find()**
 
 ---
@@ -192,6 +206,8 @@
   console.log(found);
   // expected output: 12
   ```
+
+[Back to Top](#arrays)
 
 ### **findIndex()**
 
@@ -212,6 +228,8 @@
   // expected output: 3
   ```
 
+[Back to Top](#arrays)
+
 ### **findLast()**
 
 ---
@@ -230,6 +248,8 @@
   console.log(found);
   // expected output: 44
   ```
+
+[Back to Top](#arrays)
 
 ### **findLastIndex()**
 
@@ -250,6 +270,8 @@
   // expected output: 4
   ```
 
+[Back to Top](#arrays)
+
 ### **flat()**
 
 ---
@@ -267,6 +289,8 @@
   // expected output: [0, 1, 2, 3, 4]
   ```
 
+[Back to Top](#arrays)
+
 ### **flatMap()**
 
 ---
@@ -283,6 +307,8 @@
   console.log(arr1.flatMap((x) => [x * 2]));
   // expected output: [2, 4, 6, 8]
   ```
+
+[Back to Top](#arrays)
 
 ### **forEach()**
 
@@ -303,6 +329,8 @@
   // expected output: "c"
   ```
 
+[Back to Top](#arrays)
+
 ### **from()**
 
 ---
@@ -316,6 +344,8 @@
   console.log(Array.from("foo"));
   // expected output: Array ["f", "o", "o"]
   ```
+
+[Back to Top](#arrays)
 
 ### **fromAsync()**
 
@@ -336,6 +366,8 @@
   // expected output: [1, 2, 3, 4]
   ```
 
+[Back to Top](#arrays)
+
 ### **includes()**
 
 ---
@@ -353,6 +385,8 @@
   // expected output: true
   ```
 
+[Back to Top](#arrays)
+
 ### **indexOf()**
 
 ---
@@ -369,6 +403,8 @@
   console.log(beasts.indexOf("bison"));
   // expected output: 1
   ```
+
+[Back to Top](#arrays)
 
 ### **isArray()**
 
@@ -394,6 +430,8 @@
   console.log(Array.isArray({ __proto__: Array.prototype }));
   ```
 
+[Back to Top](#arrays)
+
 ### **join()**
 
 ---
@@ -410,6 +448,8 @@
   console.log(elements.join());
   // expected output: "Fire,Air,Water"
   ```
+
+[Back to Top](#arrays)
 
 ### **keys()**
 
@@ -433,6 +473,8 @@
   // expected output: 2
   ```
 
+[Back to Top](#arrays)
+
 ### **lastIndexOf()**
 
 ---
@@ -449,6 +491,8 @@
   console.log(animals.lastIndexOf("Dodo"));
   // expected output: 3
   ```
+
+[Back to Top](#arrays)
 
 ### **map()**
 
@@ -469,6 +513,8 @@
   // expected output: Array [2, 8, 18, 32]
   ```
 
+[Back to Top](#arrays)
+
 ### **of()**
 
 ---
@@ -483,6 +529,8 @@
   console.log(Array.of(1, 2, 3)); // [1, 2, 3]
   console.log(Array.of(undefined)); // [undefined]
   ```
+
+[Back to Top](#arrays)
 
 ### **pop()**
 
@@ -500,6 +548,8 @@
   console.log(plants.pop());
   // expected output: "tomato"
   ```
+
+[Back to Top](#arrays)
 
 ### **push()**
 
@@ -521,6 +571,8 @@
   // expected output: Array ["pigs", "goats", "sheep", "cows"]
   ```
 
+[Back to Top](#arrays)
+
 ### **reduce()**
 
 ---
@@ -538,6 +590,8 @@
   console.log(array1.reduce(reducer));
   // expected output: 10
   ```
+
+[Back to Top](#arrays)
 
 ### **reduceRight()**
 
@@ -562,6 +616,8 @@
   // expected output: Array [4, 5, 2, 3, 0, 1]
   ```
 
+[Back to Top](#arrays)
+
 ### **reverse()**
 
 ---
@@ -582,6 +638,8 @@
   // expected output: "reversed:" Array ["three", "two", "one"]
   ```
 
+[Back to Top](#arrays)
+
 ### **shift()**
 
 ---
@@ -600,6 +658,8 @@
   console.log(firstElement);
   // expected output: 1
   ```
+
+[Back to Top](#arrays)
 
 ### **slice()**
 
@@ -624,6 +684,8 @@
   // expected output: Array ["bison", "camel", "duck", "elephant"]
   ```
 
+[Back to Top](#arrays)
+
 ### **some()**
 
 ---
@@ -642,6 +704,8 @@
   console.log(array.some(even));
   // expected output: true
   ```
+
+[Back to Top](#arrays)
 
 ### **sort()**
 
@@ -664,6 +728,8 @@
   console.log(array1);
   // expected output: Array [1, 100000, 21, 30, 4]
   ```
+
+[Back to Top](#arrays)
 
 ### **splice()**
 
@@ -689,6 +755,8 @@
   // expected output: Array [3]
   ```
 
+[Back to Top](#arrays)
+
 ### **toLocaleString()**
 
 ---
@@ -706,6 +774,8 @@
   console.log(localeString);
   // expected output: "1,a,12/21/1997, 2:12:00 PM"
   ```
+
+[Back to Top](#arrays)
 
 ### **toReversed()**
 
@@ -725,6 +795,8 @@
   // expected output: Array [5, 4, 3, 2, 1]
   ```
 
+[Back to Top](#arrays)
+
 ### **toSorted()**
 
 ---
@@ -742,6 +814,8 @@
   console.log(sortedArray);
   // expected output: Array [1, 2, 3, 4, 5]
   ```
+
+[Back to Top](#arrays)
 
 ### **toSpliced()**
 
@@ -761,6 +835,8 @@
   // expected output: Array [1, "a", "b", 4, 5]
   ```
 
+[Back to Top](#arrays)
+
 ### **toString()**
 
 ---
@@ -775,6 +851,8 @@
   console.log(array1.toString());
   // expected output: "1,2,a,b"
   ```
+
+[Back to Top](#arrays)
 
 ### **unshift()**
 
@@ -794,5 +872,5 @@
   console.log(array1);
   // expected output: Array [4, 5, 1, 2, 3]
   ```
-
-  [Back to Top](#arrays)
+  
+[Back to Top](#arrays)
