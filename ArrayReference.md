@@ -1,4 +1,4 @@
-# Arrays<!-- omit in toc -->
+# Array Reference<!-- omit in toc -->
 
 - [**Constructor**](#constructor)
   - [**Array()**](#array)
